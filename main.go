@@ -36,6 +36,16 @@ func main() {
 	//	fmt.Print(v)
 	//}
 
-	fmt.Print(Vex{1, "ok"})
+	//x := Vex{1, "ok"}
+	//x.x = 12
+	//
+	//fmt.Println(x)
+	//fmt.Print(x.y)
+
+	a := make([]int, 0, 10)
+	fmt.Println(cap(a))
+	fmt.Println(len(a))
+	a[9] = 10
+	fmt.Println(a[1:8])
 
 }
